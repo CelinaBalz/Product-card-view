@@ -1,0 +1,39 @@
+body{
+    font-family: var(--body-family) ;
+    font-size: var(--body-size);
+    color: var(--dark-grayish-blue);
+    line-height: var(--body-line-height);
+    background-color: var(--cream);
+}
+
+.subtitle{
+    font-family: inherit;
+    font-size: inherit;
+    letter-spacing: 10px;
+}
+
+.title{
+    font-family: var(--product-title-family);
+    font-weight: var(--product-title-weight);
+    line-height: 1.2;
+    font-size: var(--title-size);
+    color: var(--very-dark-blue);
+}
+
+.price{
+    font-family: var(--product-title-family);
+    font-weight: var(--product-title-weight);
+    color: var(--dark-cyan);
+    font-size: var(--title-size);
+}
+
+.price-promo{
+    text-decoration: line-through;
+
+}
+
+.button-text{
+    color: var(--white);
+    font-weight: var(--buttons-weight);
+}
+
